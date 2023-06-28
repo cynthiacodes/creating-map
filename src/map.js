@@ -39,8 +39,8 @@ function map(inputArray, callbackFn){
 
 }
 
-const outputArray = map(["hello", "hi", "goodbye"],  string => string.length);
+// const outputArray = map(["hello", "hi", "goodbye"],  string => string.length);
 
-console.log(outputArray);
+// console.log(outputArray);
 
-
+export { map };
